@@ -4,14 +4,14 @@ import {Link} from "react-router-dom";
 import {AiOutlineMenu, AiOutlineClose, AiFillGithub} from 'react-icons/ai'
 
 const style = {
-    imgStyle: 'w-[10rem] mt-2 mb-2 ml-2',
+    imgStyle: 'w-[7rem] md:w-[10rem] mt-2 mb-2 ml-2',
     toggleButton: 'text-4xl text-[#b1a6a2] md:hidden block cursor-pointer mr-3',
     liStyle: 'text-[#b1a6a2] mx-6 my-6 md:my-0 flex justify-center',
     linkStyle: 'text-xl',
     signLinkStyle: 'bg-[#b1a6a2] border rounded-md px-3 py-1 text-xl flex justify-center hover:bg-[#0d1117] hover:text-[#b1a6a2] duration-100 ease-in',
     signStyle: 'text-[#161b22] mx-6 my-6 md:my-0 flex justify-center',
-    ulStyle: 'md:flex md:items-center z-[1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500',
-    newUlStyle: 'md:flex md:items-center z-[1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 md:opacity-100 opacity-100 top-[55px] transition-all ease-in duration-500',
+    ulStyle: 'md:flex md:items-center z-[1] md:z-auto md:static bg-[#0d1117] absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500',
+    newUlStyle: 'md:flex md:items-center z-[1] md:z-auto md:static bg-[#0d1117] absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 md:opacity-100 opacity-100 top-[55px] transition-all ease-in duration-500',
 }
 
 const NavBar = () => {

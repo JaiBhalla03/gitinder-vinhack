@@ -10,7 +10,7 @@ import {
     AiOutlineEye,
     AiOutlineArrowRight,
     AiOutlineArrowLeft,
-    AiOutlineRight, AiOutlineLeft
+    AiOutlineRight, AiOutlineLeft, AiOutlineRedo
 } from "react-icons/ai";
 import {BsFillLightningChargeFill} from "react-icons/bs";
 import TinderCard from 'react-tinder-card'
@@ -22,7 +22,7 @@ import IconLanguage from "../../utils/IconLanguage";
 
 
 const style = {
-    tinderCardWrapper: `w-full h-full absolute`,
+    tinderCardWrapper: `w-full h-screen absolute`,
     wrapper: `text-[#b1a6a2] w-full h-full overflow-hidden bg-no-repeat bg-cover bg-center relative pt-4 md:pt-2 bg-[#161b22] rounded-3xl`,
     avatarStyle: 'border rounded-full w-28 mx-auto',
     name: 'text-2xl font-bold my-2 md:mt-1 md:mb-0 md:text-xl select-none',
@@ -54,12 +54,12 @@ const GithubCardItem = ({name, description, techUsed, status, ownerName, type, f
 
     const canSwipe = currentIndex >= 0
 
-    const swiped = (direction, index) => {
+    const swiped = (direction, nameToDelete, index) => {
         setLastDirection(direction)
         updateCurrentIndex(index - 1)
     }
-    const outOfFrame = (idx) => {
-        console.log(`$(${idx}) left the screen!`, currentIndexRef.current)
+    const outOfFrame = (name, idx) => {
+        console.log(`${name} ${idx} left the screen!`, currentIndexRef.current)
         currentIndexRef.current >= idx && childRefs[idx].current.restoreCard()
     }
     const swipe = async (dir) => {
@@ -83,8 +83,8 @@ const GithubCardItem = ({name, description, techUsed, status, ownerName, type, f
             onCardLeftScreen={() => outOfFrame(index)}
         >
             <div className={style.wrapper}>
-                <div className={'w-full h-full flex flex-col justify-between pt-[3rem] md:pt-0'}>
-                    <div className={'flex flex-col justify-around px-5 mt-5'}>
+                <div className={'w-full h-full flex flex-col justify-between pt-[2rem] md:pt-0'}>
+                    <div className={'flex flex-col justify-around px-5 md:mt-5'}>
                         <h1 className={style.name}>
                             {name}
                         </h1>
@@ -148,13 +148,19 @@ const GithubCardItem = ({name, description, techUsed, status, ownerName, type, f
                     <div>
                         <div className={'flex justify-between'}>
                             <div
-                                className={'ml-10 my-5 bg-red-700 rounded-full inline-block hover:scale-110 duration-100 ease-in-out'}
+                                className={'ml-10 my-3 bg-red-700 rounded-full inline-block hover:scale-110 duration-100 ease-in-out'}
                                 onClick={() => swipe('left')}
                             >
                                 <AiOutlineLeft size={40} className={'m-1 text-white'}/>
                             </div>
                             <div
-                                className={'mr-10 my-5 bg-green-500 rounded-full inline-block hover:scale-110 duration-100 ease-in-out'}
+                                className={'my-3 bg-blue-500 rounded-full inline-block hover:scale-110 duration-100 ease-in-out'}
+                                onClick={() => goBack()}
+                            >
+                                <AiOutlineRedo size={40} className={'m-1 text-white'}/>
+                            </div>
+                            <div
+                                className={'mr-10 my-3 bg-green-500 rounded-full inline-block hover:scale-110 duration-100 ease-in-out'}
                                 onClick={() => swipe('right')}
                             >
                                 <AiOutlineRight size={40} className={'m-1 text-white'}/>

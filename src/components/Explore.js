@@ -6,7 +6,7 @@ import {SiTypescript} from "react-icons/si";
 import '../animation.css';
 const style = {
     wrapper: `flex flex-col bg-[#0d1117] md:pt-16 h-screen`,
-    cardsContainer: `absolute mx-auto mt-6 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2`,
+    cardsContainer: `absolute mx-auto md:mt-6 md:left-1/2 md:top-1/2 md:-translate-x-1/2 md:-translate-y-1/2`,
 }
 
 const Explore = () => {
