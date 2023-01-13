@@ -5,8 +5,8 @@ import {DiCss3Full, DiJava, DiJavascript1, DiPython, DiReact} from "react-icons/
 import {SiTypescript} from "react-icons/si";
 import '../animation.css';
 const style = {
-    wrapper: `flex flex-col bg-[#0d1117] md:pt-16 md:pb-5 h-screen`,
-    cardsContainer: `absolute flex justify-center m-auto left-0 right-0`,
+    wrapper: `flex flex-col bg-[#0d1117] md:pt-16 h-screen`,
+    cardsContainer: `absolute mx-auto mt-6 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2`,
 }
 
 const Explore = () => {
