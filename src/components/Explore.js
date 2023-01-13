@@ -2,7 +2,7 @@ import React from 'react';
 import Card from "./subComponents/Card";
 
 const style = {
-    wrapper: `flex flex-col bg-[#0d1117] md:pt-20 md:pb-5 h-screen`,
+    wrapper: `flex flex-col bg-[#0d1117] md:pt-16 md:pb-5 h-screen`,
     cardsContainer: `flex justify-center`,
 }
 

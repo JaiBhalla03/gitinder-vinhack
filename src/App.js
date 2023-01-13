@@ -5,6 +5,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import Home from "./components/Home";
 import Explore from "./components/Explore";
 import Dashboard from "./components/Dashboard";
+import ProtectedRoutes from "./components/ProtectedRoutes";
 
 function App() {
     return (
@@ -12,8 +13,12 @@ function App() {
             <NavBar/>
             <Routes>
                 <Route exact path={'/'} element={<Home/>}/>
-                <Route path={'/explore'} element={<Explore/>}/>
-                <Route path={'/dashboard'} element={<Dashboard/>}/>
+                <Route element={<ProtectedRoutes/>}>
+                    <Route path={'/explore'} element={<Explore/>}/>
+                    <Route path={'/dashboard'} element={<Dashboard/>}/>
+                </Route>
+                {/*<ProtectedRoutes path='/explore' component={<Explore/>} auth={true}/>*/}
+
             </Routes>
         </div>
     );

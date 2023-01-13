@@ -20,6 +20,12 @@ const NavBar = () => {
         setToggle(current=>!current);
         console.log(toggle)
     }
+    //getting the session toggle the sign in out button
+    const[session, setSession] = useState(true);
+    const handleClickButton = ()=>{
+        setSession(current=> !current);
+    }
+
     return (
         <div className={'fixed w-full z-[1]'}>
             <nav className={'bg-[#161b22] md:flex md:justify-between md:items-center'}>
@@ -42,7 +48,7 @@ const NavBar = () => {
                         <Link to={'/dashboard'} className={style.linkStyle}>Dashboard</Link>
                     </li>
                     <li className={style.signStyle}>
-                        <Link to={'/'} className={style.signLinkStyle}>
+                        {session?(<Link to={'/'} className={style.signLinkStyle}>
                             <div className={'flex'}>
                                 <p className={'pt-0.5'}>
                                     Sign In
@@ -52,7 +58,19 @@ const NavBar = () => {
                                     className={'ml-3'}
                                 />
                             </div>
-                        </Link>
+                        </Link>):(
+                            <Link to={'/'} className={style.signLinkStyle}>
+                                <div className={'flex'}>
+                                    <p className={'pt-0.5'}>
+                                        Sign Out
+                                    </p>
+                                    <AiFillGithub
+                                        size={35}
+                                        className={'ml-3'}
+                                    />
+                                </div>
+                            </Link>
+                        )}
                     </li>
                 </ul>
             </nav>
