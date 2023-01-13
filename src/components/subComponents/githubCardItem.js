@@ -22,7 +22,7 @@ import IconLanguage from "../../utils/IconLanguage";
 
 
 const style = {
-    tinderCardWrapper: `w-full h-screen absolute`,
+    tinderCardWrapper: `w-full h-full absolute`,
     wrapper: `text-[#b1a6a2] w-full h-full overflow-hidden bg-no-repeat bg-cover bg-center relative pt-4 md:pt-2 bg-[#161b22] rounded-3xl`,
     avatarStyle: 'border rounded-full w-28 mx-auto',
     name: 'text-2xl font-bold my-2 md:mt-1 md:mb-0 md:text-xl select-none',
