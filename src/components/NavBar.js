@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import logo from '../images/logo1.jpeg'
+import logo from '../images/logo3.jpeg'
 import {Link} from "react-router-dom";
 import {AiOutlineMenu, AiOutlineClose, AiFillGithub} from 'react-icons/ai'
 
@@ -8,10 +8,10 @@ const style = {
     toggleButton: 'text-4xl text-[#b1a6a2] md:hidden block cursor-pointer mr-3',
     liStyle: 'text-[#b1a6a2] mx-6 my-6 md:my-0 flex justify-center',
     linkStyle: 'text-xl',
-    signLinkStyle: 'bg-[#b1a6a2] border rounded-md px-5 py-1 text-xl flex justify-center',
+    signLinkStyle: 'bg-[#b1a6a2] border rounded-md px-3 py-1 text-xl flex justify-center hover:bg-[#0d1117] hover:text-[#b1a6a2] duration-100 ease-in',
     signStyle: 'text-[#161b22] mx-6 my-6 md:my-0 flex justify-center',
-    ulStyle: 'md:flex md:items-center z-[1] md:z-auto md:static absolute bg-[#161b22] w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500',
-    newUlStyle: 'md:flex md:items-center z-[1] md:z-auto md:static absolute bg-[#161b22] w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 md:opacity-100 opacity-100 top-[55px] transition-all ease-in duration-500',
+    ulStyle: 'md:flex md:items-center z-[1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500',
+    newUlStyle: 'md:flex md:items-center z-[1] md:z-auto md:static absolute w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 md:opacity-100 opacity-100 top-[55px] transition-all ease-in duration-500',
 }
 
 const NavBar = () => {
@@ -27,8 +27,8 @@ const NavBar = () => {
     }
 
     return (
-        <div className={'fixed w-full z-[1]'}>
-            <nav className={'bg-[#161b22] md:flex md:justify-between md:items-center'}>
+        <div className={'fixed w-full z-[1] font-light'}>
+            <nav className={'bg-[#0d1117] py-1 md:flex md:justify-between md:items-center'}>
                 <div className={'flex justify-between items-center'}>
                     <img src={logo} alt={'logo'} className={style.imgStyle}/>
                     <span>
