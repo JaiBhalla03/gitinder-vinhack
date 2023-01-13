@@ -13,6 +13,7 @@ const style = {
 }
 
 const Card = () => {
+    console.log(profiles)
     return (
         <div className={style.wrapper}>
             {/*<CardHeader/>*/}
@@ -24,8 +25,18 @@ const Card = () => {
                     </div>
                 </div>
                 <div className={style.swipesContainer}>
-                    {profiles.map((profile)=>(
-                        <GithubCardItem/>
+                    {profiles.map((profile, index)=>(
+                        <GithubCardItem
+                            name={profile.name}
+                            description={profile.description}
+                            techUsed={profile.techUsed}
+                            status={profile.status}
+                            ownerName={profile.ownerName}
+                            type={profile.type}
+                            followers={profile.followers}
+                            following={profile.following}
+                            index={index}
+                        />
                     ))}
                 </div>
             </div>

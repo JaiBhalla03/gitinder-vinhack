@@ -1,14 +1,619 @@
 import React from 'react';
 import Card from "./subComponents/Card";
-
+import {AiFillGithub, AiFillHtml5, AiOutlineFork, AiOutlineStar} from "react-icons/ai";
+import {DiCss3Full, DiJava, DiJavascript1, DiPython, DiReact} from "react-icons/di";
+import {SiTypescript} from "react-icons/si";
+import '../animation.css';
 const style = {
     wrapper: `flex flex-col bg-[#0d1117] md:pt-16 md:pb-5 h-screen`,
-    cardsContainer: `flex justify-center`,
+    cardsContainer: `absolute flex justify-center mx-auto left-0 right-0`,
 }
 
 const Explore = () => {
     return (
         <div className={style.wrapper}>
+            <section className={'icon-section'}>
+                <div className={'row text-gray-800'}>
+                    <div>
+                        <div className={'flex'}>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                        </div>
+                    </div>
+                    <div>
+                        <div className={'flex'}>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                        </div>
+                    </div>
+                </div>
+                <div className={'row text-gray-800'}>
+                    <div>
+                        <div className={'flex'}>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                        </div>
+                    </div>
+                    <div>
+                        <div className={'flex'}>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                        </div>
+                    </div>
+                </div>
+                <div className={'row text-gray-800'}>
+                    <div>
+                        <div className={'flex'}>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                        </div>
+                    </div>
+                    <div>
+                        <div className={'flex'}>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                        </div>
+                    </div>
+                </div>
+                <div className={'row text-gray-800'}>
+                    <div>
+                        <div className={'flex'}>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                        </div>
+                    </div>
+                    <div>
+                        <div className={'flex'}>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                        </div>
+                    </div>
+                </div>
+                <div className={'row text-gray-800'}>
+                    <div>
+                        <div className={'flex'}>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                        </div>
+                    </div>
+                    <div>
+                        <div className={'flex'}>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                        </div>
+                    </div>
+                </div>
+                <div className={'row text-gray-800'}>
+                    <div>
+                        <div className={'flex'}>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                        </div>
+                    </div>
+                    <div>
+                        <div className={'flex'}>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                        </div>
+                    </div>
+                </div>
+                <div className={'row text-gray-800'}>
+                    <div>
+                        <div className={'flex'}>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                        </div>
+                    </div>
+                    <div>
+                        <div className={'flex'}>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                        </div>
+                    </div>
+                </div>
+                <div className={'row text-gray-800'}>
+                    <div>
+                        <div className={'flex'}>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                        </div>
+                    </div>
+                    <div>
+                        <div className={'flex'}>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                        </div>
+                    </div>
+                </div>
+                <div className={'row text-gray-800'}>
+                    <div>
+                        <div className={'flex'}>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                        </div>
+                    </div>
+                    <div>
+                        <div className={'flex'}>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                        </div>
+                    </div>
+                </div>
+                <div className={'row text-gray-800'}>
+                    <div>
+                        <div className={'flex'}>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                        </div>
+                    </div>
+                    <div>
+                        <div className={'flex'}>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                        </div>
+                    </div>
+                </div>
+                <div className={'row text-gray-800'}>
+                    <div>
+                        <div className={'flex'}>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                        </div>
+                    </div>
+                    <div>
+                        <div className={'flex'}>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                        </div>
+                    </div>
+                </div>
+                <div className={'row text-gray-800'}>
+                    <div>
+                        <div className={'flex'}>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                        </div>
+                    </div>
+                    <div>
+                        <div className={'flex'}>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                            <AiOutlineFork size={50} className={'m-5'}/>
+                            <AiOutlineStar size={50} className={'m-5'}/>
+                            <AiFillGithub size={50} className={'m-5'}/>
+                            <DiJava size={50} className={'m-5'}/>
+                            <DiJavascript1 size={50} className={'m-5'}/>
+                            <AiFillHtml5 size={50} className={'m-5'}/>
+                            <DiCss3Full size={50} className={'m-5'}/>
+                            <SiTypescript size={50} className={'m-5'}/>
+                            <DiPython size={50} className={'m-5'}/>
+                            <DiReact size={50} className={'m-5'}/>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <div className={style.cardsContainer}>
                 <Card/>
             </div>
