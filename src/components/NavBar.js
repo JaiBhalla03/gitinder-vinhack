@@ -25,7 +25,12 @@ const NavBar = () => {
     const handleClickButton = ()=>{
         setSession(current=> !current);
     }
-
+    const github = ()=>{
+        window.open("https://gitinder-backend-api.onrender.com/auth/github", "_self")
+    }
+    const logout = ()=>{
+        window.open("https://gitinder-backend-api.onrender.com/auth/logout", "_self")
+    }
     return (
         <div className={'fixed w-full z-[1] font-light'}>
             <nav className={'bg-[#0d1117] py-1 md:flex md:justify-between md:items-center'}>
@@ -48,7 +53,7 @@ const NavBar = () => {
                         <Link to={'/dashboard'} className={style.linkStyle}>Dashboard</Link>
                     </li>
                     <li className={style.signStyle}>
-                        {session?(<Link to={'/'} className={style.signLinkStyle}>
+                        {session?(<button onClick={github} className={style.signLinkStyle}>
                             <div className={'flex'}>
                                 <p className={'pt-0.5'}>
                                     Sign In
@@ -58,8 +63,11 @@ const NavBar = () => {
                                     className={'ml-3'}
                                 />
                             </div>
-                        </Link>):(
-                            <Link to={'/'} className={style.signLinkStyle}>
+                        </button>):(
+                            <button
+                                className={style.signLinkStyle}
+                                onClick={logout}
+                            >
                                 <div className={'flex'}>
                                     <p className={'pt-0.5'}>
                                         Sign Out
@@ -69,7 +77,7 @@ const NavBar = () => {
                                         className={'ml-3'}
                                     />
                                 </div>
-                            </Link>
+                            </button>
                         )}
                     </li>
                 </ul>
