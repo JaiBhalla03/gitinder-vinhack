@@ -11,28 +11,15 @@ import {useEffect, useState} from "react";
 function App() {
     const [user, setUser] = useState(null);
     useEffect(()=>{
-        const getUsers = async()=>{
-            fetch(`https://gitinder-backend-api.onrender.com/auth/login/success`, {
-                method: 'GET',
-                credentials:'include',
-                headers:{
-                    Accept: 'application/json',
-                    "Content-type": "application/json",
-                    "Access-control-Allow-Credentials": true,
-                },
-            }).then(res=>{
-                if(res.status === 200){
-                    return res.json()
-                }
-                throw new Error("authentication failed")
-            }).then(resObject=>{
-                setUser(resObject.user);
-            }).catch((err)=>{
-                console.log(err);
-            })
-        };
-        getUsers();
+        fetch("http://localhost:4000/auth/getUsers", {
+            method: "GET",
+            credentials: "include",
+        })
+            .then(res=>res.status === 200 && res.json())
+            .then(data=>setUser(data))
+            .catch(err=>console.error(err));
     },[])
+    console.log(user)
     return (
         <div className={'bg-[#0d1117]'}>
             <NavBar/>

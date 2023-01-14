@@ -19,6 +19,7 @@ import {TiMessages} from "react-icons/ti";
 import {RiUserFollowLine} from "react-icons/ri";
 import {profiles} from "../../utils/data";
 import IconLanguage from "../../utils/IconLanguage";
+import {BiBlock} from "react-icons/bi";
 
 
 const style = {
@@ -172,7 +173,7 @@ const GithubCardItem = ({name, description, techUsed, status, ownerName, type, f
                             <AiFillGithub className={style.icon} size={30}/>
                         </div>
                         <div className={'hover:scale-110 duration-100'}>
-                            <AiOutlineFork className={style.icon} size={30}/>
+                            <BiBlock className={style.icon} size={30}/>
                         </div>
                         <div className={'hover:scale-110 duration-100'}>
                             <AiOutlineStar className={style.icon} size={30}/>

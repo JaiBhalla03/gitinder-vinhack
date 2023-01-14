@@ -26,10 +26,10 @@ const NavBar = () => {
         setSession(current=> !current);
     }
     const github = ()=>{
-        window.open("https://gitinder-backend-api.onrender.com/auth/github", "_self")
+        window.open("http://localhost:4000/auth/github", "_self")
     }
     const logout = ()=>{
-        window.open("https://gitinder-backend-api.onrender.com/auth/logout", "_self")
+        window.open("http://localhost:4000/auth/logout", "_self")
     }
     return (
         <div className={'fixed w-full z-[1] font-light'}>
